@@ -15,6 +15,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 img {
   max-width: 100%;
 }
@@ -107,6 +111,7 @@ main {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
