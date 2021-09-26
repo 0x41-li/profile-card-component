@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url("../images/bg-pattern-top.svg") no-repeat, url("../images/bg-pattern-bottom.svg") no-repeat, #19a2ae;
+  background-position: top -300px left -380px, bottom -380px right -380px;
+  background-size: 600px;
+}
+
+.card-box {
+  position: relative;
+  width: 86%;
+  box-shadow: 10px 30px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.card-box__person-img {
+  position: relative;
+  margin-top: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.card-box__person-name-and-age {
+  font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #2d3248;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-box__age {
+  color: #969696;
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+.card-box__location {
+  text-align: center;
+  font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #969696;
+}
+
+.card-box__footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 30px;
+  border-top: 1px solid #1112;
+}
+
+.card-box__followers-box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-box__followers {
+  font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #2d3248;
+  font-size: 18px;
+}
+
+.card-box__followers-text {
+  font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #969696;
+  font-size: 12px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 375px) {
+  .card-box {
+    max-width: 350px;
+  }
+}
+@media screen and (min-width: 622px) {
+  main {
+    background-size: 700px;
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    background-size: 800px;
+    background-position: top -500px left -380px, bottom -500px right -380px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main {
+    background-size: 900px;
+    background-position: top -600px left -380px, bottom -600px right -380px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main {
+    background-size: 900px;
+    background-position: top -540px left -180px, bottom -640px right -180px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
