@@ -38,9 +38,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - Flexbox
 - Mobile-first workflow
+- Sass
 ### What I learned
 
-I enhanced my knowledge on flexbox, position, responsive design, transitions, plus JavaScript.
+I enhanced my knowledge on flexbox, position, responsive design, transitions, plus Sass.
 
 ## Author
 
